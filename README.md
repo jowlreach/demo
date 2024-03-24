@@ -1,5 +1,9 @@
 # Currency Converter
 
+## About the demo
+This project is very simplified, it was done intentionally to save time, during technical interview we can discuss 
+all aspects of it
+
 ## How to start server
 https://symfony.com/download - install symfony CLI to start server, or put this code in your existing docker setup
 
@@ -10,7 +14,6 @@ Service provider that I intergated name is `ExchangeRates`, please don't make ma
 block you for 20mins if there are many calls to them
 
 ## How to use currency converter
-
 Request via this URL: `http://localhost:8000/currency/converter/exchangerates?currencyFrom=EUR&currencyTo=USD&amount=10`
 
 * `currencyFrom` - currency what we want to convert
