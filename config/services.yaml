@@ -56,4 +56,5 @@ services:
         arguments:
             -
                 'exchangerates': '@App\CurrencyRateProviders\ExchangeRates\ExchangeRatesProvider'
+                'anothertestratesprovider': '@App\CurrencyRateProviders\AnotherTestRatesProvider\AnotherTestRatesProvider'
 
